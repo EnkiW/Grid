@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    position: relative;
+}
+
+.all {
+    position: relative;
+    width: 100%;
+    height: 980px;
+
+    background: rgb(58, 66, 67);
+    background: linear-gradient(30deg, rgba(58, 66, 67, 1) 0%, rgba(66, 133, 169, 1) 100%);
+}
+
+.bgTop {
+    position: absolute;
+    width: 39em;
+    height: 70em;
+    left: -100px;
+    top: -425px;
+    background: rgba(0, 0, 0, 0.3);
+    transform: rotate(48.83deg);
+}
+
+.h1 {
+    position: relative;
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+
+.left {
+    position: relative;
+    width: 50%;
+    float: left;
+    display: grid;
+    justify-content: center;
+}
+
+.right {
+    position: relative;
+    width: 50%;
+    float: right;
+}
+
+.main {
+    position: relative;
+    margin-top: 15em;
+    width: 30em;
+    display: grid;
+    justify-items: stretch;
+    align-items: center;
+}
+
+.footer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 5em 5em 5em;
+    padding: 10px;
+}
+.BGIcons{
+    position: relative;
+    background: rgb(98,98,98);
+    background: radial-gradient(circle, rgba(98,98,98,1) 25%, rgba(20,87,125,1) 100%);
+    padding: 8px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 15px;
+    width: 2em;
+}
+
+.footer img {
+    position: relative;
+    width: 30px;
+}
+
+.pContent {
+    position: relative;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.allLeft{
+
+}
+.right{
+    position: relative;
+    width: 50%;
+    float: left;
+    display: grid;
+    justify-content: center;
+}
+.bgRight{
+    margin-top: 7em;
+    height: 40em;
+    width: 30em;
+    display: grid;
+    justify-items: stretch;
+    align-items: center;
+    border-radius: 15px;
+    background: rgb(34,87,124);
+    background: radial-gradient(circle, rgba(34,87,124,1) 25%, rgba(30,35,64,1) 100%);
+}
+.h1InRight{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    padding: 0;
+    margin: 0;
+}
+h1{
+
+}
+.label{
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.label2{
+    font-size: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.gradient-button{
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0;
+    background: white;
+    transition-duration: 1s
+}
+.gradient-button:hover{
+    background: #d3d3d3;
+    transition-duration: 1s
+}
+.container2{
+    text-align: center;
+
+}
+form{
+    margin-left: 20px;
+}
+span{
+    color: black;
+}
+.vVod{
+    border-radius: 5px;
+    border: 0;
+    width: 95%;
+    height: 50px;
+    margin-top: 3px;
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HomeTask5</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="all">
+    <div class="bgTop"></div>
+    <div class="left">
+        <div class="allLeft">
+            <main class="main">
+                <div class="header"><h1 class="h1">Facilita Dev</h1></div>
+                <div class="content">
+                    <p class="pContent">
+                        Nunc at dolor purus. Duis massa turpis, laoreet nec ligula in, aliquam gravida leo. Quisque
+                        volutpat neque sit amet lacus consequat, vitae ullamcorper est vulputate. Nunc tincidunt
+                        faucibus tellus, at pulvinar dolor placerat non. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Vestibulum at lorem ac nulla egestas auctor ac a lacus.
+                    </p>
+                </div>
+                <div class="footer">
+                    <a href="https://www.instagram.com/s_andriutsa/">
+                        <div class="BGIcons">
+                            <img src="img/in.png" alt="IN">
+                        </div>
+                    </a>
+                    <a href="https://github.com/EnkiW">
+                        <div class="BGIcons">
+                            <img src="img/git.png" alt="GIT">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="BGIcons">
+                            <img src="img/inlogo.png" alt="INST">
+                        </div>
+                    </a>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="right">
+        <div class="bgRight">
+            <div class="headerInRight">
+                <h1 class="h1InRight">e-Book</h1>
+            </div>
+            <form>
+                <div class="container">
+                    <p class="label">
+                        <label for="firstname">Seu nome</label>
+                    </p>
+                    <input class="vVod" type="text" name="FirstName" id="firstname"  required>
+                </div>
+                <div class="container">
+                    <p class="label">
+                        <label for="lastname">Ano de nascimento</label>
+                    </p>
+                    <input class="vVod" type="text" name="LastName" id="lastname"  required>
+                </div>
+                <div class="container">
+                    <p class="label">
+                        <label for="email">Seu e-mail</label>
+                    </p>
+                    <input class="vVod" type="email" name="Email" id="email" required>
+                </div>
+                <div class="container">
+                    <p class="label">
+                        <label for="telephone">Seu telefone</label>
+                    </p>
+                    <input class="vVod" type="tel" name="Telephone" id="telephone" placeholder=" 000-000-0000" class="filling"
+                           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+                <div class="container">
+                    <p class="label2">
+                        <input type="checkbox" name="info" id="info" class="filling" required>
+                        <label for="info">I agree to <span>terms</span> and <span>conditions</span> and the
+                            privacy policy.</label>
+                    </p>
+                </div>
+                <div class="container2">
+                    <input class="gradient-button" type="submit"  value="ENVIAR" formmethod="get"
+                           formaction="index.html">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
